@@ -4,7 +4,9 @@
     "jsx": "react-jsx",
     "declarationDir": "dist"
   },
-  "files": ["src/brm-other-react-app.tsx"],
+  "files": [
+    "src/brm-cart-app.tsx"
+  ],
   "include": ["src/**/*"],
   "exclude": ["src/**/*.test*"]
 }

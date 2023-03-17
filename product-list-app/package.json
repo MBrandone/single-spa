@@ -1,5 +1,5 @@
 {
-  "name": "@brm/react-app",
+  "name": "@brm/product-list-app",
   "scripts": {
     "start": "webpack serve --port 8500",
     "start:standalone": "webpack serve --env standalone",

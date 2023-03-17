@@ -16,15 +16,15 @@ import { registerApplication, start, LifeCycles } from "single-spa";
 //});
 
 registerApplication({
-  name: "@brm/other-react-app",
-  app: () => System.import<LifeCycles>("@brm/other-react-app"),
-  activeWhen: ["/other-react-app"],
+  name: "@brm/cart-app",
+  app: () => System.import<LifeCycles>("@brm/cart-app"),
+  activeWhen: ["/panier"],
 });
 
 registerApplication({
-  name: "@brm/react-app",
-  app: () => System.import<LifeCycles>("@brm/react-app"),
-  activeWhen: ["/react"],
+  name: "@brm/product-list-app",
+  app: () => System.import<LifeCycles>("@brm/product-list-app"),
+  activeWhen: ["/liste-produits"],
 });
 
 start({

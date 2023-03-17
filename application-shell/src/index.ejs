@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Root Config</title>
+  <title>Single-SPA</title>
   <!--
     Remove this if you only support browsers that support async/await.
     This is needed by babel to share largeish helper code for compiling async/await in older
@@ -46,8 +46,8 @@
     {
       "imports": {
         "@brm/root-config": "//localhost:9000/brm-root-config.js",
-        "@brm/react-app": "//localhost:8500/brm-react-app.js",
-        "@brm/other-react-app": "//localhost:8501/brm-other-react-app.js",
+        "@brm/product-list-app": "//localhost:8500/brm-product-list-app.js",
+        "@brm/cart-app": "//localhost:8501/brm-cart-app.js",
         "react": "https://cdn.jsdelivr.net/npm/react@17.0.2/umd/react.production.min.js",
         "react-dom": "https://cdn.jsdelivr.net/npm/react-dom@17.0.2/umd/react-dom.production.min.js"
       }
