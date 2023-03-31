@@ -33,3 +33,9 @@ cd product-list-app && npm start
 ```
 cd cart-app && npm start
 ```
+
+# Deploiement
+
+On a décidé de deployer sur vercel
+url de cart-app : single-spa-cart.vercel.app
+url de product-list : single-spa-product-list.vercel.app
