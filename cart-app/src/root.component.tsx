@@ -6,7 +6,8 @@ type PanierItem = {
 
 export default function Root() {
   const [panierItem] = useState<PanierItem[]>([{ nom: "une blague" }]);
-
+  // eslint-disable-next-line no-console
+  console.log("panier");
   return (
     <>
       <h1>Mon panier</h1>
