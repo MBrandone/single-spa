@@ -9,7 +9,7 @@ registerApplication({
 registerApplication({
   name: "@brm/product-list-app",
   app: () => System.import<LifeCycles>("@brm/product-list-app"),
-  activeWhen: ["/liste-produits"],
+  activeWhen: ["/liste-produits", "/"],
 });
 
 start({
